@@ -2,11 +2,11 @@ import QuestaoModel from "../../model/questao";
 import RespostaModel from "../../model/resposta";
 
 const questoes: QuestaoModel[] = [
-    new QuestaoModel(101, 'Qual bicho transmite a Doença de Chagas?', [
-        RespostaModel.errada('Abelha'),
+    new QuestaoModel(101, 'Qual bicho é conhecodo como o maior polininzador da natureza?', [
+        RespostaModel.certa('Abelha'),
         RespostaModel.errada('Barata'),
         RespostaModel.errada('Pulga'),
-        RespostaModel.certa('Barbeiro'),
+        RespostaModel.errada('Barbeiro'),
     ]),
     new QuestaoModel(102, 'Qual fruto é conhecido no Norte e Nordeste como "jerimum"?', [
         RespostaModel.errada('Caju'),
@@ -14,11 +14,11 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Chuchu'),
         RespostaModel.certa('Abóbora'),
     ]),
-    new QuestaoModel(103, 'Qual é o coletivo de cães?', [
+    new QuestaoModel(103, 'Qual é o coletivo de peixes?', [
         RespostaModel.errada('Manada'),
         RespostaModel.errada('Alcateia'),
         RespostaModel.errada('Rebanho'),
-        RespostaModel.certa('Matilha'),
+        RespostaModel.certa('Cardume'),
     ]),
     new QuestaoModel(104, 'Qual é o triângulo que tem todos os lados diferentes?', [
         RespostaModel.errada('Equilátero'),
@@ -50,11 +50,11 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Ernesto Geisel'),
         RespostaModel.certa('João Figueiredo'),
     ]),
-    new QuestaoModel(109, 'Seguindo a sequência do baralho, qual carta vem depois do dez?', [
+    new QuestaoModel(109, 'Seguindo a sequência do baralho, qual carta vem depois da dama?', [
         RespostaModel.errada('Ás'),
         RespostaModel.errada('Nove'),
-        RespostaModel.errada('Rei'),
-        RespostaModel.certa('Valete'),
+        RespostaModel.certa('Rei'),
+        RespostaModel.errada('Valete'),
     ]),
     new QuestaoModel(110, 'O adjetivo "venoso" está relacionado a:', [
         RespostaModel.errada('Vela'),
