@@ -2,7 +2,7 @@ import QuestaoModel from "../../model/questao";
 import RespostaModel from "../../model/resposta";
 
 const questoes: QuestaoModel[] = [
-    new QuestaoModel(101, 'Qual bicho é conhecodo como o maior polininzador da natureza?', [
+    new QuestaoModel(101, 'Qual bicho é conhecido como o maior polinizador da natureza?', [
         RespostaModel.certa('Abelha'),
         RespostaModel.errada('Barata'),
         RespostaModel.errada('Pulga'),
@@ -44,11 +44,11 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Brasil'),
         RespostaModel.certa('Portugal'),
     ]),
-    new QuestaoModel(108, 'Qual foi o último Presidente do período da ditadura militar no Brasil?', [
-        RespostaModel.errada('Costa e Silva'),
-        RespostaModel.errada('Emílio Médici'),
-        RespostaModel.errada('Ernesto Geisel'),
-        RespostaModel.certa('João Figueiredo'),
+    new QuestaoModel(108, 'Qual é a banda maiis quente do mundo?', [
+        RespostaModel.errada('Molejo'),
+        RespostaModel.errada('Rammstein'),
+        RespostaModel.errada('Metallica'),
+        RespostaModel.certa('KISS'),
     ]),
     new QuestaoModel(109, 'Seguindo a sequência do baralho, qual carta vem depois da dama?', [
         RespostaModel.errada('Ás'),
