@@ -8,11 +8,11 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Pulga'),
         RespostaModel.errada('Barbeiro'),
     ]),
-    new QuestaoModel(102, 'Qual fruto é conhecido no Norte e Nordeste como "jerimum"?', [
-        RespostaModel.errada('Caju'),
-        RespostaModel.errada('Côco'),
-        RespostaModel.errada('Chuchu'),
-        RespostaModel.certa('Abóbora'),
+    new QuestaoModel(102, 'A jaca é originária de qual país?', [
+        RespostaModel.errada('Angola'),
+        RespostaModel.errada('China'),
+        RespostaModel.errada('Venezuela'),
+        RespostaModel.certa('Índia'),
     ]),
     new QuestaoModel(103, 'Qual é o coletivo de peixes?', [
         RespostaModel.errada('Manada'),
@@ -26,11 +26,11 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Trapézio'),
         RespostaModel.certa('Escaleno'),
     ]),
-    new QuestaoModel(105, 'Quem compôs o Hino da Independência?', [
+    new QuestaoModel(105, 'Quem compôs O Guarani?', [
         RespostaModel.errada('Castro Alves'),
         RespostaModel.errada('Manuel Bandeira'),
-        RespostaModel.errada('Carlos Gomes'),
-        RespostaModel.certa('Dom Pedro I'),
+        RespostaModel.certa('Carlos Gomes'),
+        RespostaModel.errada('Dom Pedro I'),
     ]),
     new QuestaoModel(106, 'Qual é o antônimo de "malograr"?', [
         RespostaModel.errada('Perder'),
