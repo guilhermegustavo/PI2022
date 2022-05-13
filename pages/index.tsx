@@ -3,7 +3,7 @@ import Questionario from '../components/Questionario'
 import QuestaoModel from '../model/questao'
 import { useRouter } from 'next/router'
 
-const BASE_URL = 'pi5-novo-i6v2vzt10-guilhermegustavo.vercel.app/api'
+const BASE_URL = 'https://pi5-novo.vercel.app/api'
 
 export default function Home() {
   const router = useRouter()
