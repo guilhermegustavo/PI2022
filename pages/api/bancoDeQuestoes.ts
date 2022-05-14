@@ -44,7 +44,7 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Brasil'),
         RespostaModel.certa('Portugal'),
     ]),
-    new QuestaoModel(108, 'Qual é a banda maiis quente do mundo?', [
+    new QuestaoModel(108, 'Qual é a banda mais quente do mundo?', [
         RespostaModel.errada('Molejo'),
         RespostaModel.errada('Rammstein'),
         RespostaModel.errada('Metallica'),
